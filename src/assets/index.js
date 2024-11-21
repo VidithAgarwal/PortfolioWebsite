@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedin from "./linkedin.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,6 +26,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import neu from "./company/NEULOGO.png";
+import mitacs from "./company/mitacs.png";
+import pplwork from "./company/pplwork.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  linkedin,
+  neu,
+  mitacs,
+  pplwork
 };

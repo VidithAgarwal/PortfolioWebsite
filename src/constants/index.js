@@ -16,6 +16,7 @@ import {
     figma,
     docker,
     meta,
+    neu,
     starbucks,
     tesla,
     shopify,
@@ -23,6 +24,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    mitacs,
+    pplwork,
   } from "../assets";
   
   export const navLinks = [
@@ -118,7 +121,7 @@ import {
     {
       title: "Graduate Teaching Assistant",
       company_name: "Northeastern University",
-      icon: starbucks,
+      icon: neu,
       iconBg: "#383E56",
       date: "May 2024 - Present",
       points: [
@@ -131,7 +134,7 @@ import {
     {
       title: "Mitacs Research Intern",
       company_name: "University INRS",
-      icon: tesla,
+      icon: mitacs,
       iconBg: "#E6DEDD",
       date: "May 2022 - Aug 2022",
       points: [
@@ -144,7 +147,7 @@ import {
     {
       title: "Software Developer Intern",
       company_name: "PPLWORK",
-      icon: shopify,
+      icon: pplwork,
       iconBg: "#383E56",
       date: "Jun 2021 - Sep 2021",
       points: [

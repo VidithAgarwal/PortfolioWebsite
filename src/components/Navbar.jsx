@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../style'
 import { navLinks } from '../constants'
-import { logo, menu, close } from '../assets'
+import { logo, menu, close, github, linkedin } from '../assets'
 
 const Navbar = () => {
 
@@ -26,6 +26,28 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li>
+            <a
+              href="https://github.com/VidithAgarwal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+            >
+              <img src={github} alt="GitHub" className="w-6 h-6 inline-block" />
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://linkedin.com/in/vidithagarwal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+            >
+              <img src={linkedin} alt="LinkedIn" className="w-6 h-6 inline-block" />
+            </a>
+          </li>
+          
         </ul>
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img src={toggle ? close : menu} alt="menu" className="w-[28px] h-[28px] object-contain cursor-pointer" onClick={() => setToggle(!toggle)} />
@@ -39,7 +61,31 @@ const Navbar = () => {
                   }}>
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
+                
               ))}
+              <li className="text-secondary
+             font-poppins text-[16px] font-medium cursor-pointer">
+            <a
+              href="https://github.com/VidithAgarwal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+            >
+              Github
+            </a>
+          </li>
+
+          <li className="text-secondary
+             font-poppins text-[16px] font-medium cursor-pointer">
+            <a
+              href="https://linkedin.com/in/vidithagarwal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+            >
+              LinkedIn
+            </a>
+          </li>
             </ul>
           </div>
         </div>

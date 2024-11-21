@@ -6,11 +6,9 @@ import emailjs from '@emailjs/browser'
 import { useState, useRef } from 'react'
 import {EarthCanvas} from './canvas'
 import { slideIn } from '../utils/motion'
-import { pre } from 'framer-motion/client'
+import { linkedin } from '../assets'
 
-// template_7vzsj0x
-// service_4kh54jq
-// i90Rz5zOGO-eZN2M1
+
 const Contact = () => {
   const [form, setForm] = useState({
     name: '',
@@ -59,7 +57,17 @@ const Contact = () => {
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
-        <p className={styles.sectionSubText}>Get in touch</p>
+      <div className="flex justify-between items-center">
+        <p className={styles.sectionSubText}>Get in touch </p>
+        <a
+              href="https://linkedin.com/in/vidithagarwal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+            >
+              <img src={linkedin} alt="LinkedIn" className="w-6 h-6 inline-block" />
+        </a>
+        </div>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
           <label className='flex flex-col'>

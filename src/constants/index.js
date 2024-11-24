@@ -20,7 +20,7 @@ import {
     jobit,
     tripguide,
     threejs,
-    Mitacs,
+    mitacs,
     pplwork,
   } from "../assets";
   
@@ -130,7 +130,7 @@ import {
     {
       title: "Mitacs Research Intern",
       company_name: "University INRS",
-      icon: Mitacs,
+      icon: mitacs,
       iconBg: "#E6DEDD",
       date: "May 2022 - Aug 2022",
       points: [

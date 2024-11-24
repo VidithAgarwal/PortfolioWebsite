@@ -43,11 +43,11 @@ const Contact = () => {
         email: '',
         message: ''
       })
-    }), (error) => {
+    }).catch((error) => {
       setLoading(false)
       console.log(error)
       alert('Something went wrong.')
-    }
+    })
   }
   const handleChange = (e) => {
     const {name, value} = e.target

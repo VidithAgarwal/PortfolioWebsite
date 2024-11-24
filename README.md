@@ -38,5 +38,31 @@ Welcome to the repository of my personal portfolio website! This project showcas
    
 5. Open http://localhost:3000 in your browser to view the site.
 
+## 📂 Project Structure
+```bash
+   src/
+   │
+   ├── components/       # Reusable React components
+   ├── assets/           # Static assets (images, icons, etc.)
+   ├── styles/           # TailwindCSS configuration and global styles
+   ├── pages/            # Main sections/pages of the portfolio
+   └── App.js            # Root component
+```
+## 🌟 Screenshots
+
+Add a few screenshots or GIFs here to showcase your website's design and functionality.
+
+## 📄 License
+
+This project is licensed under the MIT License. Feel free to use it as inspiration for your own portfolio!
+
+## 📨 Contact
+
+Feel free to reach out if you'd like to collaborate or have questions:
+
+- **Portfolio**: [My Website](https://karangoyal03.netlify.app/)
+- **LinkedIn**: [LinkedIn Profile](https://linkedin.com/in/<your-profile>)
+- **Email**: [Your Email](mailto:<your-email>)
+
 
 

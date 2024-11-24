@@ -27,7 +27,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import neu from "./company/NEULOGO.png";
-import mitacs from "./company/mitacs.png";
+import mitacs from "./company/Mitacs.png";
 import pplwork from "./company/pplwork.png";
 
 import carrent from "./carrent.png";

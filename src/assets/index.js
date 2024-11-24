@@ -26,9 +26,9 @@ import neu from "./company/NEULOGO.png";
 import mitacs from "./company/Mitacs.png";
 import pplwork from "./company/PPLWORK.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import proshop from "./proshop.png";
+import kanbas from "./Kanbas.png";
+import colorgame from "./colorgame.png";
 
 export {
   logo,
@@ -52,9 +52,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  proshop,
+  kanbas,
+  colorgame,
   linkedin,
   neu,
   mitacs,

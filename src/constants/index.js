@@ -16,12 +16,12 @@ import {
     figma,
     docker,
     neu,
-    carrent,
-    jobit,
-    tripguide,
+    proshop,
+    kanbas,
     threejs,
     mitacs,
     pplwork,
+    colorgame,
   } from "../assets";
   
   export const navLinks = [
@@ -159,7 +159,7 @@ import {
     {
       name: "ProShop",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A customer facing e-commerce application that allows users to browse products, add them to the cart, and make payments. It also features admin functionality for managing products and orders.",
       tags: [
         {
           name: "react",
@@ -170,17 +170,25 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "redux",
           color: "pink-text-gradient",
         },
+        {
+          name: "node",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "express",
+          color: "palegoldenrod",
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: proshop,
+      source_code_link: "https://github.com/VidithAgarwal/dlaglobal",
     },
     {
-      name: "Job IT",
+      name: "Kanbas",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Kanbas is a web learning platform, enabling students to access course materials, submit assignments, participate in discussions, and track progress. It features a responsive design for mobile and desktop use.",
       tags: [
         {
           name: "react",
@@ -191,33 +199,41 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "node",
           color: "pink-text-gradient",
         },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
-          name: "nextjs",
+          name: "mongodb",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "express",
+          color: "palegoldenrod",
+        },
+      ],
+      image: kanbas,
+      source_code_link: "https://github.com/VidithAgarwal/kanbas-react-web-app",
+    },
+    {
+      name: "Color Game",
+      description:
+        "The Color Game is an interactive web application that challenges users to match colors with their RGB values. It's a fun, engaging way to learn and test color recognition skills.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
         },
         {
           name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: colorgame,
+      source_code_link: "https://github.com/VidithAgarwal/ColorGame",
     },
   ];
   

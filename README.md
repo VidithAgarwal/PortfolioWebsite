@@ -42,11 +42,14 @@ Welcome to the repository of my personal portfolio website! This project showcas
 ```bash
    src/
    │
+   ├── assets/           # Static assets (images, logos, etc.)
    ├── components/       # Reusable React components
-   ├── assets/           # Static assets (images, icons, etc.)
-   ├── styles/           # TailwindCSS configuration and global styles
-   ├── pages/            # Main sections/pages of the portfolio
-   └── App.js            # Root component
+   ├── constants/        # Application constants and static data
+   ├── hoc/              # Higher-order components
+   ├── utils/            # Utility functions
+   ├── App.jsx           # Main application component
+   ├── index.css         # Global styles
+   └── style.js          # Centralized style definitions
 ```
 ## 🌟 Screenshots
 
@@ -60,9 +63,9 @@ This project is licensed under the MIT License. Feel free to use it as inspirati
 
 Feel free to reach out if you'd like to collaborate or have questions:
 
-- **Portfolio**: [My Website](https://karangoyal03.netlify.app/)
-- **LinkedIn**: [LinkedIn Profile](https://linkedin.com/in/<your-profile>)
-- **Email**: [Your Email](mailto:<your-email>)
+- **Portfolio**: [My Website](https://vidithagarwal1.netlify.app/)
+- **LinkedIn**: [LinkedIn Profile](https://linkedin.com/in/vidithagarwal)
+- **Email**: [Your Email](mailto:agarwal.vidit@northeastern.edu)
 
 
 
